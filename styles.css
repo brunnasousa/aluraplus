@@ -3,6 +3,7 @@
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C; 
+    --botao-azul-efeito: #3c92fa;;
 
     --fonte-principal: 'Inter';
 }
@@ -24,6 +25,8 @@ body{
     background-image: url("./img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 .container{
@@ -32,9 +35,17 @@ body{
     grid-template-columns: 50% 50%;
 }
 
+.container__caixa{
+    margin: 0 6em;
+}
+
 .container__titulo{
     font-size: 28px;
     font-weight: 700;
+}
+
+.container__imagem{
+    margin: 1em 0 2em 0;
 }
 
 .container__botao{
@@ -46,6 +57,12 @@ body{
     display: block; /*em colunas em vez de linhas = inline (padrao)*/
 
     text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.container__botao:hover{
+    color: var(--cor-de-fundo);
+    background-color: var(--botao-azul-efeito);
 }
 
 .botao_secundario{
@@ -56,4 +73,104 @@ body{
 .container__aviso {
     font-size: 12px;
     color: var(--cinza-secundario);
+}
+
+/*---------*/
+
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+
+
+.secundario__imagem{
+    width: 80%;
+}
+
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.3em;
+}
+.descricao__texto{
+    color: var(--cinza-secundario);
+}
+
+/*-----*/
+
+.container__descricao{
+    padding: 2em;
+}
+
+.secundario__botao{
+    display: inline-block;
+    margin-top: 1em;
+    
+}
+
+.secundario__botao:hover{
+    color: var(--cor-de-fundo);
+    background-color: var(--botao-azul-efeito);
+}
+
+/*---*/
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos__titulos{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--branco-principal);
+}
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none; 
+    margin: 5em 0;
+}
+
+.lista__item{
+    font-size: 32px;
+}
+
+/*----*/
+
+.rodape{
+    text-align: center;
+    
+}
+
+.rodape__logo{
+    margin-bottom: 2em;
+}
+
+.lista__link{
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+.lista__link a{
+    font-size: 16px;
+    color: var(--branco-principal);
+    text-decoration: none;
+    padding: 1em;
+}
+
+.lista__link a:hover{
+    color: var(--botao-azul);
+}
+
+.lista__link a:active{
+    color: var(--branco-principal);
+}
+
+.rodape__texto{
+    font-size: 14px;
+    color: var(--cinza-secundario);
+    margin: 1em 8em;
+    text-align: center;
 }
