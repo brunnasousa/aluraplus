@@ -1,19 +1,62 @@
+<h1 align="center">
+    <img title="banner-readme" src="https://imgur.com/nKUf7MK.png" alt="HTML e CSS: praticando HTML e CSS" />
+</h1>
 
-<p align="center"> <img src="https://imgur.com/BASzVop.png" alt="HTML e CSS: praticando HTML e CSS"> </p>
+<h4 align="center"> 
+	👾 Um site para divulgação da Alura Plus. 👾
+</h4>
 
-<hr>
+## 🤖 Onde encontrar ?
 
-<p align="center"> <img src="https://github.com/MonicaHillman/aluraplus/blob/aula04/img/Logo.png?raw=true" alt="Logo da alura plus"> </p>
-<p align="center">Um site para divulgação da Alura Plus, uma plataforma de streaming com os conteúdos educacionais da Alura.</p>
+<p>O Projeto está hospedado pelo GitHub Pages e você pode acessar pelo <a href="https://brunnasousa.github.io/aluraplus/" target="_blank" rel="external">link.</a> </p>
 
-## Onde encontrar?
-- link: https://brunnasousa.github.io/aluraplus/
+- link principal: https://brunnasousa.github.io/aluraplus/
 
-## Tecnologias
-* HTML
-* CSS
+## 💻 Sobre o projeto
 
-## Screenshots
-![Screenshot da tela inicial do Alura Plus](https://imgur.com/nKUf7MK.png)
+- O Alura Plus é uma plataforma de streaming ficticia com os conteúdos educacionais da Alura.
 
--link no figma: https://www.figma.com/file/Nd9BdaIg5CuTJ13qMZMAwJ/Alura-Plus---Layout-(Copy)
+## 🛠 Ferramentas
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+-   [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+-   [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) - - FlexBox e Grid.
+
+## 🎨 Paleta de cor
+
+- #FFFFFF -> branco-principal
+- #C0C0C0 -> cinza-secundario
+- #167BF7 -> botao-azul
+- #00030C -> cor-de-fundo
+- #3c92fa -> botao-azul-efeito
+
+## 📖 Layout
+
+O layout da aplicação está disponível no Figma:
+
+<a href="https://www.figma.com/file/Nd9BdaIg5CuTJ13qMZMAwJ/Alura-Plus---Layout-(Copy)">
+  <img alt="Made by brunna sousa" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
+</a>
+
+
+## 📝 Autor - Contact
+
+<table>
+  <tr>
+    <td align="center">
+      <p> </p>
+      <a href="https://www.linkedin.com/in/brunna-sousa">
+        <img src="https://avatars.githubusercontent.com/brunnasousa" width="150px;" alt="brunna sousa Github Photo"/><br>
+        <sub> 
+          <b>Feito com ❤️ por Brunna Sousa 😄</b><br>
+          <b>Entre em contato. <a href=https://www.linkedin.com/in/brunna-sousa/" target="_blank" rel="external"></a> </b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+## 👀 Observações Importantes
+
+* Certificado pela [Alura](https://cursos.alura.com.br/user/brunnad68/course/html-css-praticando-html-css/certificate) - HTML e CSS: praticando HTML/CSS.
